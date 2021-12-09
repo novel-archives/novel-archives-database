@@ -14,4 +14,4 @@ pub mod domains;
 pub mod presentations;
 pub mod usecases;
 
-use std::sync::Arc;
+use async_std::sync::Arc;
