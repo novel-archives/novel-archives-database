@@ -7,6 +7,11 @@ extern crate domain_utils_macro;
 #[macro_use]
 extern crate derive_getters;
 
+#[macro_use]
+extern crate async_trait;
+
 pub mod domains;
 pub mod presentations;
 pub mod usecases;
+
+use std::sync::Arc;

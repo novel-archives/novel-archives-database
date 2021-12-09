@@ -12,3 +12,5 @@ pub struct NovelTitle(String);
 
 #[derive(PartialEq)]
 pub struct NovelDescription(String);
+
+pub trait NovelRepository: Send + Sync + 'static {}

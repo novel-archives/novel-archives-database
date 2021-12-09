@@ -12,3 +12,6 @@ domain_utils_macro = { git = "https://github.com/novel-archives/domain_utils_mac
 domain_utils = { git = "https://github.com/novel-archives/domain_utils" }
 derive-new = "0.5.9"
 derive-getters = "0.2.0"
+async-graphql = { version = "3.0.11", features = ["dataloader"] }
+async-trait = "0.1.51"
+async-std = "1.10.0"
